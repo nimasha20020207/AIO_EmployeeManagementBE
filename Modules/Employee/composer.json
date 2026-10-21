@@ -1,0 +1,24 @@
+{
+    "name": "aio/employee-module",
+    "description": "Employee management and payroll domain module.",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Employee\\": "app/",
+            "Modules\\Employee\\Database\\Factories\\": "database/factories/",
+            "Modules\\Employee\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Employee\\Tests\\": "tests/"
+        }
+    }
+}
